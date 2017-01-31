@@ -14,13 +14,13 @@ var updateProfile = function () {
   var phone = phoneInput.value
 
   previewText.innerHTML =
-  '<h1>Hi, my name is ' + firstName + ' ' + lastName + '!</h1>' +
+    '<h1>Hi, my name is ' + firstName + ' ' + lastName + '!</h1>' +
     '<p>' + bio + '</p>' +
     '<p>If you\'re interested in a date, you can email me at <a href="mailto:' + email + '" target="_blank">' + email + '</a>' + ' or give me a call at <a href="tel:' + phone +
     '" target="_blank">' + phone + '</a></p>'
 
   generatedText.textContent =
-  '<h1>Hi, my name is ' + firstName + ' ' + lastName + '!</h1>' +
+    '<h1>Hi, my name is ' + firstName + ' ' + lastName + '!</h1>' +
     '<p>' + bio + '</p>' +
     '<p>If you\'re interested in a date, you can email me at <a href="mailto:' + email + '" target="_blank">' + email + '</a>' + ' or give me a call at <a href="tel:' + phone +
     '" target="_blank">' + phone + '</a>.</p>'
